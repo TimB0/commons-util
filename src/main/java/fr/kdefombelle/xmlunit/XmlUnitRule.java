@@ -1,6 +1,7 @@
 package fr.kdefombelle.xmlunit;
 
 import org.custommonkey.xmlunit.XMLUnit;
+
 import org.junit.rules.ExternalResource;
 
 

@@ -2,14 +2,15 @@ package fr.kdefombelle.junit;
 
 import java.io.File;
 import java.io.IOException;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
+
+import fr.kdefombelle.util.StringUtil;
 
 import org.junit.rules.MethodRule;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
-
-import fr.kdefombelle.util.StringUtil;
 
 
 public final class FileResourcesRule implements MethodRule {
