@@ -1,8 +1,8 @@
 package fr.kdefombelle.jmx.server;
 
-import javax.management.MBeanServer;
-
 import fr.kdefombelle.jmx.ObjectNameFactory;
+
+import javax.management.MBeanServer;
 
 public interface Agent {
 
